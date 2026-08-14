@@ -12,13 +12,14 @@
 
 body {
   background-color: #2C687B;
+  overflow-x: hidden;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 2px #232931;
-  font-size: 8rem;
+  text-shadow: 5px 0 2px #232931; 
+  font-size: clamp(3.2rem, 13vw, 4.2rem);
   color: #FFF6F6;
   cursor:pointer;
   user-select: none;
