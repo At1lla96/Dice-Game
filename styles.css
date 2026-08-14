@@ -44,14 +44,14 @@ footer {
 @media (max-width: 480px) {
   .container {
     width: 100%;
-    padding: 0 10px;
+    padding: 10px;
     margin: 0 auto;
   }
 
   h1 {
-    font-size: 2.3rem;
-    margin: 20px auto 10px auto;
-    text-shadow: 2px 0 2px #232931;
+    font-size: 3.5rem;
+    margin: 25px auto 15px auto;
+    text-shadow: 3px 0 2px #232931;
     width: 100%;
     text-align: center;
   }
@@ -63,18 +63,20 @@ footer {
     text-align: center;
   }
 
+
   p {
-    font-size: 1.4rem;
-    margin-bottom: 5px;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
   }
 
   img {
-    width: 110px;
+    width: 180px;
+    max-width: 70%;
     margin: 0 auto;
   }
 
   footer {
-    font-size: 1rem;
-    margin: 15px 0 25px 0;
+    font-size: 1.4rem;
+    margin: 25px 0 35px 0;
   }
 }
